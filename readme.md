@@ -38,10 +38,11 @@ cd bin
 - Run tests using: Gradle > IntelliJ IDEA  
 
 ### Build
-프로젝트 경로로 이동 후 아래 명령어를 입력하여 gradlew 파일 실행  
-clean은 옵j
+프로젝트 경로로 이동 후 아래 명령어를 입력하여 gradlew 파일 실행
 ```aidl
 ./gradlew clean build
+// 또는
+./gradlew build
 ```
 
 빌드된 파일은 `build/libs`에 생성됨
