@@ -15,7 +15,7 @@ m1 칩셋이기 때문에 azul Zulu jdk를 사용하였습니다.
 1. h2 database 다운로드: [h2database.com](https://www.h2database.com/html/download.html)  
 2. 압축 해제 및 해당 폴더로 이동
 3. bin/h2.sh 실행
-```aidl
+```
 cd bin
 ./h2.sh
 ```
@@ -39,7 +39,7 @@ cd bin
 
 ### Build
 프로젝트 경로로 이동 후 아래 명령어를 입력하여 gradlew 파일 실행
-```aidl
+```
 ./gradlew clean build
 // 또는
 ./gradlew build
@@ -48,7 +48,7 @@ cd bin
 빌드된 파일은 `build/libs`에 생성됨
 
 아래 명령어로 빌드된 파일 실행
-```aidl
+```
 cd build/libs
 java -jar jpashop-0.0.1-SNAPSHOT.jar
 ```
